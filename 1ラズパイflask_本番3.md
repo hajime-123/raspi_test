@@ -40,7 +40,7 @@ for i in range(5):
 cap.release()
 cv2.destroyAllWindows()
 ~~~
-![6](ラズパイflask本番画像3\1.PNG)
+![6](ラズパイflask本番画像3/1.PNG)
 
 最初は動画の取得時間が長いが、それ以外は早く処理出来ている
 
@@ -1195,11 +1195,11 @@ static routers=192.168.9.62
 
 ログイン用のポートは/etc/xrdp/xrdp.ini
 
-![6](ラズパイflask本番画像\7.PNG)
+![6](ラズパイflask本番画像/7.PNG)
 
 画面転送用のポートは/etc/xrdp/sesman.ini
 
-![6](ラズパイflask本番画像\8.PNG)
+![6](ラズパイflask本番画像/8.PNG)
 
 ここでリモートデスクトップのポート確認
 
