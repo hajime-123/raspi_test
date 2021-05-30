@@ -367,11 +367,11 @@ static routers=172.21.5.253
 
 ログイン用のポートは/etc/xrdp/xrdp.ini
 
-![6](ラズパイflask本番画像\7.PNG)
+![6](ラズパイflask本番画像/7.PNG)
 
 画面転送用のポートは/etc/xrdp/sesman.ini
 
-![6](ラズパイflask本番画像\8.PNG)
+![6](ラズパイflask本番画像/8.PNG)
 
 ここでリモートデスクトップのポート確認
 
@@ -397,11 +397,11 @@ sudo ufw disable
 
 
 
-![6](ラズパイflask本番画像\9.PNG)
+![6](ラズパイflask本番画像/9.PNG)
 
 
 
-![6](ラズパイflask本番画像\10.PNG)
+![6](ラズパイflask本番画像/10.PNG)
 
 
 

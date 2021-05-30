@@ -753,7 +753,7 @@ $ sudo systemctl enable uwsgi3
 $ sudo systemctl disable uwsgi3
 ```
 
-![6](ラズパイflask本番画像\1.PNG)
+![6](ラズパイflask本番画像/1.PNG)
 
 displyが表示できないようなエラーが出ている
 
@@ -765,7 +765,7 @@ rootに実行権がないのでpiで実行できるようにしてみた
 
 sustemctl --user enable uwsgi3.service
 
-![6](ラズパイflask本番画像\2.PNG)
+![6](ラズパイflask本番画像/2.PNG)
 
 sudo suでrootユーザーになってから
 
@@ -773,11 +773,11 @@ sudo suでrootユーザーになってから
 
 以上で実行してみた
 
-![6](ラズパイflask本番画像\3.PNG)
+![6](ラズパイflask本番画像/3.PNG)
 
 app.pyのcv2.imshow('frame',testframe5)をコメントアウトすれば良さそう
 
-![6](ラズパイflask本番画像\3.PNG)
+![6](ラズパイflask本番画像/3.PNG)
 
 rootのdisplayの環境変数が問題になっている？
 
@@ -1084,11 +1084,11 @@ $ sudo systemctl disable uwsgi3
 
 ログイン用のポートは/etc/xrdp/xrdp.ini
 
-![6](ラズパイflask本番画像\7.PNG)
+![6](ラズパイflask本番画像/7.PNG)
 
 画面転送用のポートは/etc/xrdp/sesman.ini
 
-![6](ラズパイflask本番画像\8.PNG)
+![6](ラズパイflask本番画像/8.PNG)
 
 ここでリモートデスクトップのポート確認
 
@@ -1114,11 +1114,11 @@ sudo ufw disable
 
 
 
-![6](ラズパイflask本番画像\9.PNG)
+![6](ラズパイflask本番画像/9.PNG)
 
 
 
-![6](ラズパイflask本番画像\10.PNG)
+![6](ラズパイflask本番画像/10.PNG)
 
 
 
